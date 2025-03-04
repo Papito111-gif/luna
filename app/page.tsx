@@ -115,7 +115,7 @@ const Home = () => {
         <section id="contact" className="py-20">
           <h2 className="text-3xl font-semibold">Contact</h2>
           <p className="mt-4 text-gray-400">Contact us on WhatsApp:</p>
-          <a href="https://wa.me/+2347075224445" className="text-lg font-semibold text-blue-400 hover:underline">Chat on WhatsApp</a>
+          <a href="https://wa.me/+2349046090678" className="text-lg font-semibold text-blue-400 hover:underline">Chat on WhatsApp</a>
         </section>
       </main>
 
