@@ -20,7 +20,7 @@ const allProjects = [
   {
     title: "Project 3",
     description: "Description of project 3.",
-    image: "/luna14.jpg"
+    image: "/luna3.jpg"
   },
   {
     title: "Project 4",
@@ -35,17 +35,22 @@ const allProjects = [
   {
     title: "Project 6",
     description: "Description of project 5.",
-    image: "/luna17.jpg"
+    image: "/luna4.jpg"
   },
   {
     title: "Project 7",
     description: "Description of project 5.",
-    image: "/luna10.jpg"
+    image: "/luna6.jpg"
   },
   {
     title: "Project 8",
     description: "Description of project 5.",
     image: "/luna15.jpg"
+  },
+  {
+    title: "Project 9",
+    description: "Description of project 5.",
+    image: "/luna9.jpg"
   }
 ];
 
@@ -119,7 +124,7 @@ const Home = () => {
           </button>
           <nav className="flex flex-col mt-20 space-y-6 text-lg font-semibold">
             <Link
-              to="about"
+              to="about" 
               smooth={true}
               duration={500}
               className="hover:text-gray-400 cursor-pointer"
@@ -172,7 +177,7 @@ With expertise in CorelDRAW and Photoshop, we create logos, business cards, pack
           {visibleProjects < allProjects.length && (
             <button
               onClick={() => setVisibleProjects(visibleProjects + 2)}
-              className="mt-6 px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded text-white"
+              className=" px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded text-white"
             >
               See More
             </button>
@@ -202,6 +207,15 @@ With expertise in CorelDRAW and Photoshop, we create logos, business cards, pack
       className="px-6 py-3 bg-pink-500 hover:bg-pink-600 rounded-lg text-white font-semibold flex items-center space-x-2"
     >
       <span>Follow on Instagram</span>
+    </a>
+    {/* Tiktok link */}
+    <a 
+      href="https://www.tiktok.com/Lunagraphicoasis" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="px-6 py-3 bg-red-900 hover:bg-black rounded-lg text-white font-semibold flex items-center space-x-2"
+    >
+      <span>Follow on Tiktok</span>
     </a>
   </div>
 </section>
